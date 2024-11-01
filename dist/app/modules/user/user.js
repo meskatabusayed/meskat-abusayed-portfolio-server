@@ -24,10 +24,10 @@ const userSchema = new mongoose_1.Schema({
     role: { type: String, required: true },
 }, { timestamps: true });
 const UserData = {
-    name: "Rahman Abdul Quadir",
-    email: "rahman@gmail.com",
+    name: "Meskat Mohammad Abu Sayed",
+    email: "meskat@gmail.com",
     role: "Admin",
-    password: "rahman123",
+    password: "meskat123",
 };
 exports.User = (0, mongoose_1.model)("User", userSchema);
 const seed = () => __awaiter(void 0, void 0, void 0, function* () {
